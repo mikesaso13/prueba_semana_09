@@ -20,3 +20,5 @@ left_join(clientes, pedidos, by = "id_cliente")
 
 # right_join()
 right_join(clientes, pedidos, by = "id_cliente")
+
+# The full join wasn't ready for production.
