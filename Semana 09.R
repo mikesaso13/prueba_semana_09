@@ -20,7 +20,3 @@ left_join(clientes, pedidos, by = "id_cliente")
 
 # right_join()
 right_join(clientes, pedidos, by = "id_cliente")
-
-# full_join()
-full_join(clientes, pedidos, by = "id_cliente")
-
